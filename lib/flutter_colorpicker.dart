@@ -89,7 +89,7 @@ class _ColorPickerState extends State<ColorPicker> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                ColorIndicator(currentHsvColor),
+                //ColorIndicator(currentHsvColor),
                 Expanded(
                   child: Column(
                     children: <Widget>[
@@ -129,7 +129,7 @@ class _ColorPickerState extends State<ColorPicker> {
               Row(
                 children: <Widget>[
                   SizedBox(width: 20.0),
-                  ColorIndicator(currentHsvColor),
+                  //ColorIndicator(currentHsvColor),
                   Column(
                     children: <Widget>[
                       SizedBox(

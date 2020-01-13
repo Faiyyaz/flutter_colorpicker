@@ -51,9 +51,9 @@ class _MyAppState extends State<MyApp> {
                             onColorChanged: changeColor,
                             colorPickerWidth: 300.0,
                             pickerAreaHeightPercent: 0.7,
-                            enableAlpha: true,
+                            enableAlpha: false,
                             displayThumbColor: true,
-                            enableLabel: true,
+                            enableLabel: false,
                             paletteType: PaletteType.hsv,
                             pickerAreaBorderRadius: const BorderRadius.only(
                               topLeft: const Radius.circular(2.0),
@@ -86,7 +86,7 @@ class _MyAppState extends State<MyApp> {
                           child: MaterialPicker(
                             pickerColor: currentColor,
                             onColorChanged: changeColor,
-                            enableLabel: true,
+                            enableLabel: false,
                           ),
                         ),
                       );
